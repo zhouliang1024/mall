@@ -1,6 +1,7 @@
-/*
 package com.yuye.mall.dto;
 
+import com.yuye.mall.model.UmsAdmin;
+import com.yuye.mall.model.UmsPermission;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -9,11 +10,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-*/
-/**
- * SpringSecurity需要的用户详情
- * Created by macro on 2018/4/26.
- *//*
+
+
 
 public class AdminUserDetails implements UserDetails {
     private UmsAdmin umsAdmin;
@@ -63,4 +61,3 @@ public class AdminUserDetails implements UserDetails {
     }
 }
 
-*/
