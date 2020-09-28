@@ -1,4 +1,4 @@
-package com.yuye.mall.servce;
+package com.yuye.mall.service;
 
 import com.yuye.mall.api.CommonResult;
 import com.yuye.mall.model.UmsMember;

@@ -1,9 +1,8 @@
-package com.yuye.mall.servce.impl;
+package com.yuye.mall.service.impl;
 
 import com.yuye.mall.mapper.PmsBrandMapper;
 import com.yuye.mall.model.PmsBrand;
-import com.yuye.mall.servce.PmsBrandService;
-import lombok.extern.slf4j.Slf4j;
+import com.yuye.mall.service.PmsBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,9 @@
-package com.yuye.mall.servce.impl;
+package com.yuye.mall.service.impl;
 
 import com.yuye.mall.api.CommonResult;
 import com.yuye.mall.model.UmsMember;
-import com.yuye.mall.servce.RedisService;
-import com.yuye.mall.servce.UmsMemberService;
+import com.yuye.mall.service.RedisService;
+import com.yuye.mall.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

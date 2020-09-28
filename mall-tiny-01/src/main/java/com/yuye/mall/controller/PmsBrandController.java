@@ -1,16 +1,13 @@
 package com.yuye.mall.controller;
 
-import cn.hutool.json.JSONUtil;
-import com.alibaba.druid.support.json.JSONUtils;
 import com.yuye.mall.api.CommonResult;
 import com.yuye.mall.model.PmsBrand;
-import com.yuye.mall.servce.PmsBrandService;
+import com.yuye.mall.service.PmsBrandService;
 import com.yuye.mall.vo.res.PmsBrandVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

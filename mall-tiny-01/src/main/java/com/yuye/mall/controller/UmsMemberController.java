@@ -1,7 +1,7 @@
 package com.yuye.mall.controller;
 
 import com.yuye.mall.api.CommonResult;
-import com.yuye.mall.servce.UmsMemberService;
+import com.yuye.mall.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
