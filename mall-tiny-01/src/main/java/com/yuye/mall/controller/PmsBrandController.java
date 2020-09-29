@@ -8,6 +8,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -20,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Api(tags = "PmsBrandController",description = "品牌管理")
 @RequestMapping(value = "/brand")
+@PreAuthorize("hasAuthority('pms:brand:read')")
 public class PmsBrandController {
     @Autowired
     private PmsBrandService pmsBrandService;
